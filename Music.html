@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="SlideShow.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <title> Music </title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="container w3-text-black">
+        <div class="row">
+          <ul class="w3-navbar w3-transparent">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Music.html">Music</a></li>
+            <li><a href="javascript:void(0)">Contact us</a></li>
+          </ul>
+          <div class="pos">
+            <button onclick="document.getElementById('id01').style.display='block'" class="button">Suscribe</button>
+          </div>
+
+          <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-card-8">
+              <header class="w3-container w3-brown">
+                <span onclick="document.getElementById('id01').style.display='none'"class="w3-closebtn">&times;</span>
+                <h2>Modal Header</h2>
+            </header>
+            <div class="w3-container entry">
+              <div>
+                Email-id : <input type="text" name="eid" value="">
+              </div>
+            </div>
+            <footer class="w3-container w3-brown entry">
+              <p><div class="w3-bottomleft">
+                <button type="button" name="Submit">Submit</button>
+              </div></p>
+            </footer>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-content w3-display-container" style = "max-width: 1500px">
+      <img src="Music.jpg" style="width:100%" />
+      <div class="w3-display-middle w3-container w3-padding-16  w3-allerta w3-transparent w3-text-white">
+        <img src="Music.png">
+      </div>
+    </div>
+  </body>
+<html>
